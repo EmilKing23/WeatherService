@@ -2,13 +2,13 @@
 
 ASP.NET Core Web API для погоды: сервис получает данные из Open-Meteo, кэширует частые запросы в памяти, сохраняет статистику обращений в SQLite и отдает локальные иконки погоды.
 
-## Требования
+//// Требования
 
 - .NET SDK 8.0
 - SQLite
 - Docker Desktop, если нужен запуск через Docker
 
-## Конфигурация
+//// Конфигурация
 
 Настройки лежат в `appsettings.json` и могут переопределяться переменными окружения:
 
@@ -26,7 +26,7 @@ ASP.NET Core Web API для погоды: сервис получает данн
 - история: `https://archive-api.open-meteo.com/v1`
 - геокодинг: `https://geocoding-api.open-meteo.com/v1`
 
-## Локальный запуск
+//// Локальный запуск
 
 ```bash
 dotnet restore
@@ -39,7 +39,7 @@ Swagger UI в development-режиме:
 - `http://localhost:5282/swagger`
 - `https://localhost:7198/swagger`
 
-## Основные эндпоинты
+//// Основные эндпоинты
 
 - `GET /api/weather/{city}?date=YYYY-MM-DD`
 - `GET /api/weather/{city}/week`
@@ -58,7 +58,7 @@ curl "http://localhost:5282/static/icons/clear.png"
 
 Повторный запрос той же погоды в течение TTL должен прийти из кэша. Это видно в логах и в статистике по полю `cacheHit`.
 
-## Тесты
+//// Тесты
 
 ```bash
 dotnet test
@@ -69,17 +69,8 @@ dotnet test
 - маппинг WMO-кодов Open-Meteo в локальные коды иконок;
 - кэш-логику: первый запрос идет к провайдеру, второй такой же запрос берется из `IMemoryCache`, а в БД пишется `cacheHit=true`.
 
-## Smoke tests
 
-После сборки можно запустить быстрый HTTP-прогон:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\tests\smoke-tests.ps1
-```
-
-Скрипт стартует API на `http://127.0.0.1:5090`, проверяет дневную погоду, недельный прогноз, статистику и локальную иконку.
-
-## Docker
+//// Docker
 
 Сборка и запуск:
 
@@ -89,7 +80,7 @@ docker compose up --build
 
 После старта API будет доступен на `http://localhost:8080`. SQLite-файл хранится в docker volume `weather-data`.
 
-## Архитектура
+//// Архитектура
 
 - `Controllers/WeatherControllers.cs` принимает HTTP-запросы погоды, валидирует входные параметры и переводит доменные ответы в JSON DTO.
 - `Controllers/StatsController.cs` читает статистику из SQLite и отдает топ городов или постраничный список запросов.
