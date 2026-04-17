@@ -1,0 +1,49 @@
+﻿{
+    "city":  "Сочи",
+    "days":  [
+                 {
+                     "date":  "2026-04-17",
+                     "condition":  "clear",
+                     "temperatureC":  19.9,
+                     "iconUrl":  "http://localhost:8080/static/icons/clear.png"
+                 },
+                 {
+                     "date":  "2026-04-18",
+                     "condition":  "rain",
+                     "temperatureC":  17.5,
+                     "iconUrl":  "http://localhost:8080/static/icons/rain.png"
+                 },
+                 {
+                     "date":  "2026-04-19",
+                     "condition":  "rain",
+                     "temperatureC":  12.3,
+                     "iconUrl":  "http://localhost:8080/static/icons/rain.png"
+                 },
+                 {
+                     "date":  "2026-04-20",
+                     "condition":  "rain",
+                     "temperatureC":  13,
+                     "iconUrl":  "http://localhost:8080/static/icons/rain.png"
+                 },
+                 {
+                     "date":  "2026-04-21",
+                     "condition":  "fog",
+                     "temperatureC":  13.7,
+                     "iconUrl":  "http://localhost:8080/static/icons/fog.png"
+                 },
+                 {
+                     "date":  "2026-04-22",
+                     "condition":  "rain",
+                     "temperatureC":  14.3,
+                     "iconUrl":  "http://localhost:8080/static/icons/rain.png"
+                 },
+                 {
+                     "date":  "2026-04-23",
+                     "condition":  "rain",
+                     "temperatureC":  14.3,
+                     "iconUrl":  "http://localhost:8080/static/icons/rain.png"
+                 }
+             ],
+    "source":  "open-meteo",
+    "fetchedAt":  "2026-04-17T10:57:38.0888726Z"
+}

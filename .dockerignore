@@ -1,0 +1,8 @@
+bin/
+obj/
+.vs/
+WeatherService.Tests/bin/
+WeatherService.Tests/obj/
+.dotnet/
+.codex-run/
+weather.db*

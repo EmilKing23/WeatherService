@@ -1,0 +1,17 @@
+﻿{
+    "value":  [
+                  {
+                      "city":  "Сочи",
+                      "count":  9,
+                      "cacheHits":  7,
+                      "averageLatencyMs":  259
+                  },
+                  {
+                      "city":  "Малага",
+                      "count":  2,
+                      "cacheHits":  0,
+                      "averageLatencyMs":  1342
+                  }
+              ],
+    "Count":  2
+}

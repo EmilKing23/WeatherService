@@ -1,0 +1,9 @@
+bin/
+obj/
+.vs/
+.dotnet/
+.codex-run/
+weather.db
+weather.db-shm
+weather.db-wal
+*.user

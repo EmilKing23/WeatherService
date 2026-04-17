@@ -1,0 +1,117 @@
+﻿{
+    "page":  1,
+    "pageSize":  20,
+    "totalCount":  11,
+    "items":  [
+                  {
+                      "id":  11,
+                      "timestampUtc":  "2026-04-17T11:02:26.6826833",
+                      "endpoint":  "week",
+                      "city":  "Сочи",
+                      "date":  null,
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  10,
+                      "timestampUtc":  "2026-04-17T11:02:26.5877378",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  9,
+                      "timestampUtc":  "2026-04-17T11:02:26.15505",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  8,
+                      "timestampUtc":  "2026-04-17T10:57:38.0895139",
+                      "endpoint":  "week",
+                      "city":  "Сочи",
+                      "date":  null,
+                      "cacheHit":  false,
+                      "statusCode":  200,
+                      "latencyMs":  575
+                  },
+                  {
+                      "id":  7,
+                      "timestampUtc":  "2026-04-17T10:57:16.3477838",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  6,
+                      "timestampUtc":  "2026-04-17T10:57:15.4272614",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  5,
+                      "timestampUtc":  "2026-04-17T10:57:10.8426408",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  4,
+                      "timestampUtc":  "2026-04-17T10:57:07.389236",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  true,
+                      "statusCode":  200,
+                      "latencyMs":  0
+                  },
+                  {
+                      "id":  3,
+                      "timestampUtc":  "2026-04-17T10:56:38.6612003",
+                      "endpoint":  "day",
+                      "city":  "Сочи",
+                      "date":  "2025-09-19",
+                      "cacheHit":  false,
+                      "statusCode":  200,
+                      "latencyMs":  1756
+                  },
+                  {
+                      "id":  2,
+                      "timestampUtc":  "2026-04-17T10:31:51.533156",
+                      "endpoint":  "day",
+                      "city":  "Малага",
+                      "date":  "2026-03-03",
+                      "cacheHit":  false,
+                      "statusCode":  200,
+                      "latencyMs":  1368
+                  },
+                  {
+                      "id":  1,
+                      "timestampUtc":  "2026-04-17T10:21:46.0608708",
+                      "endpoint":  "day",
+                      "city":  "Малага",
+                      "date":  "2025-09-19",
+                      "cacheHit":  false,
+                      "statusCode":  200,
+                      "latencyMs":  1316
+                  }
+              ]
+}
